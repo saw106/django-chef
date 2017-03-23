@@ -6,3 +6,6 @@ from django.http import HttpResponse
 def index(request):
 	return HttpResponse("Hello, you have arrived at the polls landing page.")
 
+def chef_test(request):
+	return HttpResponse('43frOIJtjq90324jwoierfm')
+
